@@ -5,6 +5,7 @@ import turtle
 import math
 
 pen = turtle.Turtle()
+pen._delay(0.01)
 
 
 #定义函数-画多边形
