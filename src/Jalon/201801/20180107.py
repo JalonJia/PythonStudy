@@ -61,7 +61,7 @@ def drawPartCircleColor(pen, r, dPart, red, green, blue):
 
 pen.setpos(0, 0)
 pen.seth(0) #设置方向向右
-drawPartCircleColor(pen, 100, 1, 1, 0, 0)
+drawPartCircleColor(pen, 100, 1, 1, 1, 1)
 pen.seth(180) #设置方向向右
 drawPartCircleColor(pen, 150, 1, 0, 1, 0)
 pen.pencolor(0, 0, 1)
