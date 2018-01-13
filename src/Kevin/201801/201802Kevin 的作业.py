@@ -55,8 +55,8 @@ def qj(t, e):
         e.fd(t)
         e.lt(360/3)
 
-qj(253)
-qi(678)
+qj(253, pen)
+qj(678, pen)
 
 
 turtle.mainoop()
