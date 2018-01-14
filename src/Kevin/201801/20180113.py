@@ -19,9 +19,9 @@ def sanjiao_color(pen, l, r, g, b):
     if r > 1 :
         r = 1 
     if g > 1:
-        g = 0
-    if b > 1:
-        b = 0
+        g = 1
+    if b > 1: 
+        b = 1
     pen.color(r, g, b)
     pen.begin_fill()
     sanjiao(l, pen)
