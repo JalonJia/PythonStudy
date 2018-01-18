@@ -20,4 +20,3 @@ os.chdir('C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE')
 fp = os.popen('vb7to8.exe /help')
 fpread = fp.read()
 print(fpread)
-    
