@@ -37,5 +37,3 @@ drawRect(pen, 10)
 
 
 turtle.mainloop()
-
-
