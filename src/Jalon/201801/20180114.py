@@ -85,5 +85,3 @@ def sort_list(listx):
 print(sort_list(list_a))
 print(sort_list(list_s))
 #print(sort_list(list_c)) #数字，字符串不能比较大小
-
-

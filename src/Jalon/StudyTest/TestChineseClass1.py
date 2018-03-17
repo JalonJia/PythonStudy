@@ -15,7 +15,7 @@ import copy
 
 
 
-s_file = os.curdir + '/一年级语文生字R2.txt'
+s_file = os.curdir + '/一年级语文生字.txt'
 for i in range(3):
     print(linecache.getline(s_file, i+1))
 
