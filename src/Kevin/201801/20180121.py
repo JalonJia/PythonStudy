@@ -36,5 +36,4 @@ polygon(t = bob, length = 3, n = math.floor(zhouchang/3))
 
 
 
-
 turtle.mainloop()
