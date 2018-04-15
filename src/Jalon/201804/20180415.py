@@ -4,7 +4,8 @@
 TODO: 让用户输入一些数字，并实时告诉他这些数字里最大的数是多少
 当用户输入end时结束程序
 '''
-from test.test_binop import isnum
+
+
 
 #
 i_max = 0
