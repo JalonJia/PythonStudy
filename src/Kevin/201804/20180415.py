@@ -7,7 +7,7 @@ s_input = ''
 while s_input != 'end' :
     s_input = input("请输入一个数字，输入end时结束程序：")
     list_input.append(s_input)
-    if s_input.isdigit() : 
+    if s_input.isdigit(): 
         if i_max > int(s_input) :
             i_max = int(s_input)
         print("目前最小的数字是：%s" % i_max)

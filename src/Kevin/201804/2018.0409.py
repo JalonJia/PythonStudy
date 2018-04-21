@@ -57,8 +57,5 @@ def min_list(j, k):
 
 min_list(j = f[0], k = f)
 
-"""aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz
-aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz
-aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz"""
 
 turtle.mainloop()
