@@ -8,3 +8,24 @@ TODO: 2018-4-22周作业
 
 提示：字符串可以使用[下标]取出每一个字符，len(str)函数可以返回字符串的长度。
 '''
+
+heeh = input('请输入一英语单词:')
+print(heeh)
+
+#for i in range(len(heeh)):
+#    print(heeh[i])
+    
+def deffed(h):
+    l = len(h)
+    jk = int(l / 2)
+    for i in range(jk):
+        #print(h[i])
+        #print(h[l - i - 1])
+        if h[i] != h[l - i - 1]:
+            print('这个单词不是回文')            
+            return False  #return语句会退出函数调用 break语句会跳出循环
+        
+    print("是回文")
+    return True
+
+deffed(h = heeh)            
