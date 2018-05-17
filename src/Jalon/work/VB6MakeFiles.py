@@ -12,6 +12,7 @@ sPath = "D:\ACCPAC\AM65A"
 #print(os.path.dirname(sPath)) #路径的第一部分
 #print(os.path.basename(sPath)) #路径的第二部分
 #print(os.path.splitext(sPath))
+#os.makedirs(path) #创建多级目录
 
 s_vb_home = 'C:\Program Files (x86)\Microsoft Visual Studio\VB98'
 os.chdir(s_vb_home)
@@ -27,6 +28,7 @@ for root, dirs, files in os.walk(s_AMUI_home): #files会得到目录下的文件
         #print(s_filetype)
         if (s_filetype == '.vbp') and (s_filename[-3:] != 'EXE') and (len(s_filename) >= len('ACCPACAM0000')) :
             s_filepath = os.path.join(root, file)
+            
             if os.path.exists(s_filepath):
                 print(s_filepath)
                 fp = os.popen('vb6.exe /make "%s"' % s_filepath) #路径用""引起来可以避免空格带来的问题
