@@ -14,8 +14,12 @@ print(heeh)
 
 #for i in range(len(heeh)):
 #    print(heeh[i])
+
+
+
+
     
-def deffed(h):
+def check_palindrome(h):
     l = len(h)
     jk = int(l / 2)
     for i in range(jk):
@@ -28,4 +32,15 @@ def deffed(h):
     print("是回文")
     return True
 
-deffed(h = heeh)            
+check_palindrome(h = heeh
+
+
+
+
+
+     
+ 
+
+
+
+            
