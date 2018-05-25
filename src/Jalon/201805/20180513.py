@@ -38,8 +38,6 @@ s3 = s3_1 + s3_2 + s3_3
 
 #n的乘法口诀
 def n_mul(n):
-    s_temp = '%d*%d=%d' % (n, n, n*n)
-    len_max = len(s_temp)
     for i in range(n):
         s = ''
         for x in range(i + 1):
@@ -47,6 +45,8 @@ def n_mul(n):
             b = i + 1
             c = a * b
             s1 = '%d*%d=%d' % (a, b, c)
+            s_temp = '%d*%d=%d' % (a, n, a*n)
+            len_max = len(s_temp)
             if len(s1) < len_max:
                 s1 = s1 + ' '*(len_max-len(s1))
                 
@@ -58,7 +58,7 @@ def n_mul(n):
         print(s)
 
 
-n_mul(n = 100)
+n_mul(n = 9)
 
 
 
