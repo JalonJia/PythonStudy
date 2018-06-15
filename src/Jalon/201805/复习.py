@@ -63,9 +63,14 @@ s_base = 'My name is: %s, I am %d years old.'
 s_jiajikai = s_base % (jiajikai, 9)
 print(s_jiajikai)
 
+for a in s_jiajikai:
+    print(a)
 
 #列表
-
+list_a = []
+list_a.append(1)
+list_a.insert(0, 2)
+print(list_a)
 
 #for循环
 for i in range(100):
