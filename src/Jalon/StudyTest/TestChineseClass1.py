@@ -15,7 +15,7 @@ import copy
 
 
 
-s_file = os.curdir + '/一年级语文生字.txt'
+s_file = os.curdir + '/一年级下语文生字Miya.txt'
 for i in range(3):
     print(linecache.getline(s_file, i+1))
 
@@ -86,6 +86,7 @@ class Application(tk.Frame):
 
     def read_next_round(self):        
         #char_set = copy.copy(char_set_errors)
+        print('不认识:%s' % char_set_errors)
         for char in char_set_errors:
             char_set.append(char)        
         print(char_set)
