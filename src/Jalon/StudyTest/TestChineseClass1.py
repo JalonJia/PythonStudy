@@ -15,7 +15,7 @@ import copy
 
 
 
-s_file = os.curdir + '/一年级下语文生字Miya.txt'
+s_file = os.curdir + '/Temp.txt'
 for i in range(3):
     print(linecache.getline(s_file, i+1))
 
