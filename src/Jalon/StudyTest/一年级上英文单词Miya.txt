@@ -29,7 +29,7 @@ count
 dance
 desk
 do
-don't
+dont
 down
 draw
 eight
@@ -64,7 +64,7 @@ in
 is
 it
 let
-let's
+lets
 like
 listen
 little
@@ -91,7 +91,7 @@ or
 orange
 pen
 pencil
-pencil box
+pencilbox
 picture
 pink
 play
@@ -110,13 +110,13 @@ she
 show
 sing
 sit
-sit down
+sitdown
 six
 something
 song
 spy
 stand
-stand up
+standup
 stop
 student
 teacher
@@ -129,7 +129,7 @@ the
 then
 this
 three
-to 
+to
 today
 too
 two
