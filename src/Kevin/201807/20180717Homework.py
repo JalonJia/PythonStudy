@@ -10,6 +10,9 @@ Created on 2018年7月17日
 4. 写一个函数get_chars(str), 传入一个字符串str, 返回字符串中包含的所有不重复的字符列表。
 例如：调用 x = get_chars('jiajikai')之后，x是这样的列表：['j','i','a','k'](包含了字符串的所有字母，并且不重复）。提示：调用上次写的函数。
 
+5. 练习10-6
+    两个单词，如果重新排列其中一个的字母可以得到另一个，则它们互为回文。写一个函数is_angaram(str1, str2)传入两个字符串，当它们互为回文时返回True，否则返回False。
+    例如：is_angaram('abc', 'cba')会返回True; is_angaram('xbc', 'cba')会返回False。
 
 '''
 
