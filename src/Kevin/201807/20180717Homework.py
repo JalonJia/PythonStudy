@@ -16,3 +16,14 @@ Created on 2018年7月17日
 
 '''
 
+def find(str, substr):
+    u = 0
+    for i in str:
+        if i == substr:
+            u += 1
+    if u > 0:
+        print(f'字符串{str}中包含字符串{substr}')
+    else:
+        print(f'字符串{str}中不包含字符串{substr}')
+    print(f'{substr}在{str}中出现的次数是{u}')
+find(str = ('123456789'), substr = '10')
