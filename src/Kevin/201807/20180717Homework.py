@@ -17,6 +17,30 @@ Created on 2018年7月17日
 '''
 
 def find(str, substr):
+    t = 0
+    u = 0
+    if len(substr) > len(str):
+        print(f'字符串{str}中不包含字符串{substr}')
+        return -1
+    
+    h = len(substr)
+
+    for i in range(len(str)):
+        if str[t:h] == substr:
+            u += 1
+        h += 1
+        t += 1
+        
+    if u > 0:
+        print(f'字符串{str}中包含字符串{substr}')
+        print(f'{substr}在{str}中出现的次数是{u}')
+        return u
+    else:
+        print(f'字符串{str}中不包含字符串{substr}')
+        print(f'{substr}在{str}中出现的次数是{u}')
+        return -1
+find(str = ('fg'), substr = 'fg')
+'''
     u = 0
     for i in str:
         if i == substr:
@@ -26,4 +50,23 @@ def find(str, substr):
     else:
         print(f'字符串{str}中不包含字符串{substr}')
     print(f'{substr}在{str}中出现的次数是{u}')
-find(str = ('123456789'), substr = '10')
+'''
+
+def count(str, substr):
+    if len(substr) > len(str):
+        print('出现的次数是0')
+        return
+    t = 0
+    u = 0
+    h = len(substr)
+
+    for i in range(len(str)):
+        if str[t:h] == substr:
+            u += 1
+        h += 1
+        t += 1
+    print()
+    print(f'{substr}在{str}中出现的次数是{u}')
+
+
+count(str = (''), substr = 'h')
