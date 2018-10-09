@@ -1,1 +1,3 @@
 pip install xlrd #excel package
+pygame
+numpy
