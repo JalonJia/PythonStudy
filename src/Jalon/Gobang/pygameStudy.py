@@ -69,12 +69,18 @@ def main():
     #矩形
     pygame.draw.rect(screen, BLUE, (200, 250, 100, 80), 2)
     
+    #定义一个Box
+    box1 = {'rect': pygame.Rect(300, 80, 50, 100), 'color': BLUE, 'dir': 'UPRIGHT'}
+    pygame.draw.rect(screen, box1['color'], box1['rect'])
+    
     #画一个矩形将文字包起来
     pygame.draw.rect(screen, RED, 
                      (text_rect.left -20, text_rect.top - 20, text_rect.width + 40, text_rect.height + 40), 0)
-
+    
     #将Text的容器放到屏幕中间
     screen.blit(text, text_rect)
+    
+    
     
     #设置某个像素点的颜色
     pix_array = pygame.PixelArray(screen)
